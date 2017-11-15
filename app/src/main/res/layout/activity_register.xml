@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context="com.dhillon.dupeitv2.RegisterActivity">
+
+
+    <EditText
+        android:id="@+id/etForename"
+
+        android:textColor="@color/WhiteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/etTxtForename"
+        android:layout_above="@+id/etSurname"
+        android:layout_alignStart="@+id/etSurname"
+        android:layout_marginBottom="14dp" />
+
+    <EditText
+        android:id="@+id/etUsername"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Username"
+        android:layout_above="@+id/etForename"
+        android:layout_alignStart="@+id/etForename"
+        android:layout_marginBottom="14dp" />
+
+
+    <EditText
+        android:id="@+id/etSurname"
+
+        android:textColor="@color/WhiteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/etTxtSurname"
+        android:layout_above="@+id/etEmail"
+        android:layout_alignStart="@+id/etEmail"
+        android:layout_marginBottom="14dp" />
+
+    <EditText
+        android:id="@+id/etEmail"
+
+        android:textColor="@color/WhiteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/EmailHint"
+        android:inputType="textEmailAddress"
+        android:layout_above="@+id/etPass"
+        android:layout_alignStart="@+id/etPass"
+        android:layout_marginBottom="14dp" />
+
+    <EditText
+        android:id="@+id/etPass"
+
+        android:textColor="@color/WhiteText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/PassHint"
+        android:inputType="textPassword"
+        android:layout_above="@+id/btnReg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="66dp" />
+
+    <Button
+        android:id="@+id/btnReg"
+        android:layout_width="280dp"
+        android:layout_height="wrap_content"
+        android:text="@string/txtBtnReg"
+        android:layout_marginBottom="48dp"
+        android:layout_alignParentBottom="true"
+
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>

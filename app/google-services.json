@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "36855848410",
+    "firebase_url": "https://dupeitv2.firebaseio.com",
+    "project_id": "dupeitv2",
+    "storage_bucket": "dupeitv2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36855848410:android:ba88042beee3b4bd",
+        "android_client_info": {
+          "package_name": "com.dhillon.dupeitv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36855848410-uhgrgbl1m2ljirnm23f7p8s3tmut1lvk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dhillon.dupeitv2",
+            "certificate_hash": "9eb788b5b792d4f0f11baac689c7cce25e55a34e"
+          }
+        },
+        {
+          "client_id": "36855848410-2h58fqqjuns7onq8f7tcqekflp2ahttm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWQFC1rJd4QeD1PJ9FN4mwQbrHsQsl_GI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36855848410-2h58fqqjuns7onq8f7tcqekflp2ahttm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

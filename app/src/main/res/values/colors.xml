@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="WhiteText">#FFF</color>
+    <color name="BlackText">#000</color>
+    <color name="LinkTexts">#0c06aa</color>
+    <color name ="LgnColor">#0c06aa</color>
+    <color name="regbtnColor">#1d0e7c</color>
+</resources>

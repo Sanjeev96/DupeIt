@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">DupeItV2</string>
+    <string name="EmailHint">Email Address</string>
+    <string name="PassHint">Password</string>
+    <string name="txtBtnLogin">Login</string>
+    <string name="cbRememberMe">Remeber me</string>
+    <string name="RegLink">sign up now!</string>
+    <string name="etTxtForename">Forename</string>
+    <string name="etTxtSurname">Surname</string>
+    <string name="txtBtnReg">Register</string>
+    <string name="title_activity_user_area">UserAreaActivity</string>
+
+
+
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+</resources>
